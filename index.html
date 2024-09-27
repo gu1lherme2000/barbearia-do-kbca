@@ -1,0 +1,98 @@
+from IPython.display import HTML
+
+html_code = """
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia do Kbça</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000; /* Fundo preto */
+            color: #fff; /* Texto branco */
+        }
+        header {
+            background-color: #111; /* Fundo do cabeçalho em preto mais claro */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 60%;
+            margin: 20px auto;
+            background-color: #222; /* Fundo do conteúdo em preto escuro */
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: white;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: center;
+            color: #ddd; /* Texto em cinza claro */
+        }
+        .social-link-button {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            flex-direction: column;
+        }
+        .social-link-button a {
+            text-decoration: none;
+            color: white;
+            background-color: #444; /* Botão em cinza escuro */
+            padding: 15px 25px;
+            border-radius: 5px;
+            font-size: 18px;
+            margin: 5px 0; /* Adiciona espaço entre os botões */
+        }
+        .social-link-button a:hover {
+            background-color: #555; /* Cor ao passar o mouse */
+        }
+        footer {
+            background-color: #111; /* Rodapé em preto mais claro */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Barbearia do Kbça</h1>
+    <p>Aqui você encontra todas as redes sociais!</p>
+</header>
+
+<div class="container">
+    <h2>Sobre a Barbearia:</h2>
+    <p>Barbearia do Kbça: conforto e qualidade em cada corte!
+    Bem-vindo à Barbearia do Kbça, o lugar onde estilo e conforto se encontram! Aqui, nossa missão é proporcionar uma experiência única para nossos clientes, oferecendo cortes de cabelo e serviços de barbearia de alta qualidade. Nosso ambiente acolhedor e descontraído garante que você se sinta em casa enquanto desfruta de um atendimento personalizado. Venha nos visitar e descubra como é possível unir tradição e modernidade em cada detalhe. Na Barbearia do Kbça, sua satisfação é nossa prioridade!</p>
+
+    <div class="social-link-button">
+        <a href="https://www.facebook.com/profile.php?id=100093572023209&ref=xav_ig_profile_web" target="_blank">Facebook</a>
+        <a href="https://api.whatsapp.com/message/X4PBJDFZPOAWI1?autoload=1&app_absent=0" target="_blank">WhatsApp</a>
+        <a href="https://www.tiktok.com/@barbeariadokbca?is_from_webapp=1&sender_device=pc" target="_blank">TikTok</a>
+    </div>
+</div>
+
+<footer>
+    <p>Contato: joao.silva@email.com | Telefone: (00) 1234-5678</p>
+</footer>
+
+</body>
+</html>
+"""
+
+HTML(html_code)
